@@ -11,7 +11,7 @@ rollnumber=0;
   year=0;
 }
 //take_input
-void Student::inputdetails()
+void Student::inputDetails()
 {
   cout<<"enter roll number: ";
 cin>>rollnumber;
@@ -23,7 +23,7 @@ cout<<"enter year:";
 cin>>year;
 }
 //display_output
-void Student::displaydetails()
+void Student::displayDetails()
 {
   cout<<"\nstudent details:\n";
 cout<<"roll number = "<<rollnumber<<endl;
